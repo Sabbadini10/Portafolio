@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+:root{
+  --titulo-nombre1 : 'Rubik 80s Fade', cursive;
+  --titulo-nombre2 : 'Rubik Vinyl', cursive;
+  --subtitulos-1 : 'Acme', sans-serif; 
+  --subtitulos-2 : 'Fredoka One', cursive;
+  --parrafo-1 : 'Yanone Kaffeesatz', sans-serif;
+  --parrafo-2 : 'Signika Negative', sans-serif;
+}
+
+.App{
+  background-image: url('../../imagenes/30269.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  background-clip: border-box;
+}
+h1 {
+  color: aliceblue;
+  font-family: var(--titulo-nombre1);
+}
