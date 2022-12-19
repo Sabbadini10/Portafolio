@@ -5,6 +5,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 :root{
   --titulo-nombre1 : 'Rubik 80s Fade', cursive;
   --titulo-nombre2 : 'Rubik Vinyl', cursive;
@@ -15,14 +21,5 @@
 }
 
 .App{
-  background-image: url('../../imagenes/30269.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-  background-attachment: fixed;
-  background-clip: border-box;
-}
-h1 {
-  color: aliceblue;
-  font-family: var(--titulo-nombre1);
+  font-family: var(--titulo-nombre2);
 }

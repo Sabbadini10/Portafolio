@@ -1,4 +1,12 @@
+@import '../app/App.css';
+
 .Footer{
-    background-color: yellow;
-    color: aliceblue;
+    background-color: black;
+    height: 75px;
+}
+
+.Footer-span {
+    color: white;
+    font-weight: 900;
+    font-family: var(--parrafo-2);
 }

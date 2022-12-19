@@ -1,8 +1,8 @@
 import React from 'react';
-import './Skill.css';
+import './CardProyectos.css';
 import { Link } from 'react-router-dom';
 
-function Skill(props) {
+function CardProyecto(props) {
   return (<div>
     <div class="card d-flex mb-3" style={{width: '18rem'}}>
   <div class="card-body">
@@ -15,4 +15,4 @@ function Skill(props) {
   )
 }
 
-export default Skill;
+export default CardProyecto;

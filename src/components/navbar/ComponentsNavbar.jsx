@@ -6,24 +6,24 @@ import './Navbar.css'
 function Navbar() {
   return (
     <div className='Navbar'>
-      <nav className="navbar navbar-expand-lg bg-light d-flex gap-10px">
+      <nav className="navbar navbar-expand-lg bg-dark d-flex gap-10px">
     <div className="container-fluid"> 
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-    <li className="nav-item">
-        <Link className="navbar-brand" to='/home'>Home</Link>
+    <ul className="navbar-nav d-flex gap-20px">
+    <li className="nav-item ">
+        <Link className="nav-link" to='/'>Home</Link>
         </li>
-          <li className="nav-item">
+          <li className="nav-item" >
                 <Link className="nav-link" to='/about'>Sobre mi</Link>
           </li>
-          <li className="nav-item">
-            <Link className="nav-link" to='/skill'>Skill</Link>
+          <li className="nav-item" >
+            <Link className="nav-link"  to='/skill'>Skill</Link>
           </li>
-          <li className="nav-item">
-            <Link className="nav-link" to='/proyecto'>Proyectos</Link>
+          <li className="nav-item" >
+            <Link className="nav-link"  to='/proyecto'>Proyectos</Link>
           </li>
-          <li className="nav-item">
-            <Link className="nav-link" to='/contacto'>Contacto</Link>
+          <li className="nav-item" >
+            <Link className="nav-link"  to='/contacto'>Contacto</Link>
           </li>
         </ul>
         <form className="d-flex" role="search">
