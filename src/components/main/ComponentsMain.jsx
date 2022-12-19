@@ -18,16 +18,16 @@ function Main(){
         quia nulla esse ipsum fuga pariatur neque atque officia!<br/>
       </p>
 <hr class="border border-primary border-3 opacity-75"></hr>
-<div className='d-flex justify-content-center '>
-  <div>
+<div className='d-flex justify-content-center mb-5 gap-5'>
+  <div className='d-flex flex-column align-items-sm-center'>
   <h6>Linkedin</h6>
   <a  href='https://www.linkedin.com/in/matias-sabbadini-desarrollador/' target='_blank'><i class="fa-brands fa-linkedin"></i></a>
   </div>
-  <div>
+  <div className='d-flex flex-column align-items-sm-center'>
   <h6>Git-Hub</h6>
   <a href='https://github.com/Sabbadini10' target='_blank'><i class="fa-brands fa-github"></i></a>
   </div>
-  <div>
+  <div className='d-flex flex-column align-items-sm-center'>
   <h6>Facebook</h6>
   <a  href='https://www.facebook.com/buon.aseo/' target='_blank'><i class="fa-brands fa-facebook"></i></a>
   </div>

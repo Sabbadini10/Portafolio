@@ -2,11 +2,15 @@
 
 .Footer{
     background-color: black;
-    height: 75px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .Footer-span {
     color: white;
     font-weight: 900;
     font-family: var(--parrafo-2);
+    
 }
