@@ -7,15 +7,16 @@ import  PagesContacto  from '../pages/PagesContacto';
 import  PagesAbout  from '../pages/PagesAbout';
 
 
+
+
 const router = createBrowserRouter(
     createRoutesFromElements(
-            <Route path='/' exact element={<PagesHome/>}>
+            <Route path='/' element={<PagesHome/>}>
             <Route path='/proyecto' element={<PagesProyecto/>}/>
             <Route path='/skill' element={<PagesSkill/>}/>
             <Route path='/contacto' element={<PagesContacto/>}/>
             <Route path='/about' element={<PagesAbout/>}/>
-            
-        </Route>
+            </Route>
     )
 )
 

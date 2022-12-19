@@ -6,22 +6,26 @@
     flex-direction: column;
 }
 
-.main-imagen-contenedor{
-    width: 20%;
-    border-radius: 50%;
-    background-color: black;
-    display: flex;
-    justify-content: end;
-    align-items: flex-end;
-}
-
 .main-titulo {
     color: aliceblue;
     font-family: var(--titulo-nombre2);
-    width: 70%;
+    width: 100%;
+    font-size: 5em;
+    margin-top: 10px;
   }
 
-.main-imagen{
-width: 400px;
-height: 400px;
+.main-titulo-subtitulo{
+    margin-top: 10px;
+font-size: 3em;
 }
+
+
+.main-titulo-parrafo{
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.fa-brands{
+font-size: 35px;
+}
+
