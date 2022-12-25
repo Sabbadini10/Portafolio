@@ -2,8 +2,10 @@ import React from 'react';
 import './CardProyectos.css';
 import { Link } from 'react-router-dom';
 
+
 function CardProyecto(props) {
-  return (<div>
+  return (
+  <div>
     <div class="card d-flex mb-3" style={{width: '18rem'}}>
   <div class="card-body">
     <h5 class="card-title">{props.name}</h5>
@@ -12,6 +14,7 @@ function CardProyecto(props) {
   </div>
   </div>
 </div>
+
   )
 }
 

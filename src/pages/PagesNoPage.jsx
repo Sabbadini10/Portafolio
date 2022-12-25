@@ -1,28 +1,26 @@
 import React from 'react'
-import ComponentsAbout from '../components/about/ComponentsAbout'
 import Footer from '../components/footer/ComponentsFooter'
 import Navbar from '../components/navbar/ComponentsNavbar'
+import ComponentsNoPage from '../components/NoPage/ComponentsNoPage'
 
 
-function PagesAbout() {
+function PagesNoPage() {
   
   return (
-    <div>
-      <Navbar />
-      <div className="container-fluid">
+   <div>
+     <Navbar />
+    <div className="container-fluid">
       <div className="d-sm-flex align-items-center justify-content-between mb-4">
-        <h1 className="h3 mb-0 text-gray-800">Portfolio| About</h1>
+        <h1 className="h3 mb-0 text-gray-800">Portfolio| NoPage</h1>
       </div>
-
       <div className="row justify-content-center">
           
-        <ComponentsAbout />
+        <ComponentsNoPage />
       </div>
     </div>
     <Footer />
-    </div>
-    
+   </div>
   )
 }
 
-export default PagesAbout
+export default PagesNoPage

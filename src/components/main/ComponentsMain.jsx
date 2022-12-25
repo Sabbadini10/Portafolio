@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import './Main.css';
 
 
@@ -21,15 +22,15 @@ function Main(){
 <div className='d-flex justify-content-center mb-5 gap-5'>
   <div className='d-flex flex-column align-items-sm-center'>
   <h6>Linkedin</h6>
-  <a  href='https://www.linkedin.com/in/matias-sabbadini-desarrollador/' target='_blank'><i class="fa-brands fa-linkedin"></i></a>
+  <Link  to={{pathname: 'https://www.linkedin.com/in/matias-sabbadini-desarrollador/'}} target='_blank'><i class="fa-brands fa-linkedin"></i></Link>
   </div>
   <div className='d-flex flex-column align-items-sm-center'>
   <h6>Git-Hub</h6>
-  <a href='https://github.com/Sabbadini10' target='_blank'><i class="fa-brands fa-github"></i></a>
+  <Link to={{pathname:'https://github.com/Sabbadini10'}} target='_blank'><i class="fa-brands fa-github"></i></Link>
   </div>
   <div className='d-flex flex-column align-items-sm-center'>
   <h6>Facebook</h6>
-  <a  href='https://www.facebook.com/buon.aseo/' target='_blank'><i class="fa-brands fa-facebook"></i></a>
+  <Link  to={{pathname:'https://www.facebook.com/buon.aseo/'}} target='_blank'><i class="fa-brands fa-facebook"></i></Link>
   </div>
 </div>
 

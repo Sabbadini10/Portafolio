@@ -1,11 +1,11 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import './Navbar.css'
-
+import { Outlet, Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div className='Navbar'>
+    <>
+      <div className='Navbar'>
       <nav className="navbar navbar-expand-lg bg-dark d-flex gap-10px">
     <div className="container-fluid"> 
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -34,8 +34,10 @@ function Navbar() {
     </div>
   </nav>
     </div>
-    
+
+      <Outlet />
+    </>
   )
-}
+};
 
 export default Navbar;
