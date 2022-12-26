@@ -2,6 +2,7 @@ import React from 'react'
 import './Navbar.css'
 import { Outlet, Link } from "react-router-dom";
 
+
 function Navbar() {
   return (
     <>
@@ -10,26 +11,27 @@ function Navbar() {
     <div className="container-fluid"> 
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav d-flex gap-20px">
-    <li className="nav-item ">
+    <li className="nav-item d-flex flex-row align-items-center">
+      <span className='Navbar-span-icono'><i class="fa-solid fa-house"></i></span>
         <Link className="nav-link" to='/'>Home</Link>
         </li>
-          <li className="nav-item" >
-                <Link className="nav-link" to='/about'>Sobre mi</Link>
+          <li className="nav-item d-flex flex-row align-items-center" >
+            <span className='Navbar-span-icono'><i class="fa-solid fa-user"></i></span>
+                <Link className="nav-link" to='/cursos'>Cursos</Link>
           </li>
-          <li className="nav-item" >
+          <li className="nav-item d-flex flex-row align-items-center" >
+          <span className='Navbar-span-icono'><i class="fa-solid fa-brain"></i></span>
             <Link className="nav-link"  to='/skill'>Skill</Link>
           </li>
-          <li className="nav-item" >
+          <li className="nav-item d-flex flex-row align-items-center" >
+            <span className='Navbar-span-icono'><i class="fa-sharp fa-solid fa-diagram-project"></i></span>
             <Link className="nav-link"  to='/proyecto'>Proyectos</Link>
           </li>
-          <li className="nav-item" >
+          <li className="nav-item d-flex flex-row align-items-center" >
+            <span className='Navbar-span-icono'><i class="fa-solid fa-phone"></i></span>
             <Link className="nav-link"  to='/contacto'>Contacto</Link>
           </li>
         </ul>
-        <form className="d-flex" role="search">
-          <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-          <button className="btn btn-outline-success" type="submit">Search</button>
-        </form>
       </div>
     </div>
   </nav>

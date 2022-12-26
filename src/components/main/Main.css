@@ -8,25 +8,38 @@
 
 .main-titulo {
     color: aliceblue;
-    font-family: var(--titulo-nombre2);
+    font-family: var(--titulo-nombre1);
     width: 100%;
-    font-size: 5em;
+    font-size: 3em;
     margin-top: 10px;
   }
 
 .main-titulo-subtitulo{
     margin-top: 10px;
-    font-size: 3em;
+    font-size: 2em;
+    font-family: var(--subtitulos-2);
 }
 
 
 .main-titulo-parrafo{
-    font-size: 1.5em;
+    font-size: 1em;
     margin-top: 10px;
+    font-family: var(--parrafo-2);
 }
 
 .fa-brands{
-font-size: 35px;
+font-size: 30px;
 color: antiquewhite;
 }
+
+.fa-solid{
+    font-size: 30px;
+color: antiquewhite;
+}
+
+.main-contenedor-redes{
+margin-bottom: 47px;
+gap: 8em;
+}
+
 

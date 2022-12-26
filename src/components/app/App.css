@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
 
 * {
   box-sizing: border-box;
@@ -12,14 +13,10 @@
 }
 
 :root{
-  --titulo-nombre1 : 'Rubik 80s Fade', cursive;
+  --titulo-nombre1 : 'Unbounded', cursive;
   --titulo-nombre2 : 'Rubik Vinyl', cursive;
   --subtitulos-1 : 'Acme', sans-serif; 
   --subtitulos-2 : 'Fredoka One', cursive;
   --parrafo-1 : 'Yanone Kaffeesatz', sans-serif;
   --parrafo-2 : 'Signika Negative', sans-serif;
-}
-
-.App{
- 
 }

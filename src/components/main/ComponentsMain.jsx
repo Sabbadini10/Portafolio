@@ -1,12 +1,17 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import ImagenPerfil from '../imagen/ImagenPerfil';
 import './Main.css';
+import perfilImagen from '../../imagenes/fotoPerfil2.jpg'
+
+
 
 
 function Main(){
   return (
     <div className='Main'>
-      <h1 className='main-titulo display-4 d-flex justify-content-center'>Bienvenidos a mi Porfolio</h1>
+      <h1 className='main-titulo display-1 d-flex justify-content-center'>Bienvenidos a mi Porfolio</h1>
+      <div className='d-flex flex-row justify-content-around align-items-center mt-3'>
+      <div>
       <h2 className='main-titulo-subtitulo d-flex justify-content-center'>Matias Sabbadini</h2>
       <h5 className='main-titulo-subtitulo d-flex justify-content-center'>Full Stack Web</h5>
       <p className='main-titulo-parrafo d-flex justify-content-center'> 
@@ -18,19 +23,33 @@ function Main(){
         similique dolor soluta harum veniam recusandae, <br/>
         quia nulla esse ipsum fuga pariatur neque atque officia!<br/>
       </p>
-<hr class="border border-primary border-3 opacity-75"></hr>
-<div className='d-flex justify-content-center mb-5 gap-5'>
+      </div>
+<div>
+  <ImagenPerfil src={perfilImagen} />
+</div>
+      </div>
+      
+<hr className="border border-primary border-3 opacity-75"></hr>
+<div className='main-contenedor-redes d-flex justify-content-center'>
   <div className='d-flex flex-column align-items-sm-center'>
   <h6>Linkedin</h6>
-  <Link  to={{pathname: 'https://www.linkedin.com/in/matias-sabbadini-desarrollador/'}} target='_blank'><i class="fa-brands fa-linkedin"></i></Link>
+  <a href='https://www.linkedin.com/in/matias-sabbadini-desarrollador/'><i class="fa-brands fa-linkedin"></i></a>
   </div>
   <div className='d-flex flex-column align-items-sm-center'>
   <h6>Git-Hub</h6>
-  <Link to={{pathname:'https://github.com/Sabbadini10'}} target='_blank'><i class="fa-brands fa-github"></i></Link>
+  <a href='https://github.com/Sabbadini10'><i class="fa-brands fa-github"></i></a>
   </div>
   <div className='d-flex flex-column align-items-sm-center'>
   <h6>Facebook</h6>
-  <Link  to={{pathname:'https://www.facebook.com/buon.aseo/'}} target='_blank'><i class="fa-brands fa-facebook"></i></Link>
+  <a  href='https://www.facebook.com/buon.aseo/'><i class="fa-brands fa-facebook"></i></a>
+  </div>
+  <div className='d-flex flex-column align-items-sm-center'>
+  <h6>Instagram</h6>
+  <a  href={'https://www.instagram.com/matias_sabbadini/'}><i class="fa-brands fa-instagram"></i></a>
+  </div>
+  <div className='d-flex flex-column align-items-sm-center'>
+  <h6>Curriculum</h6>
+  <a  href={'https://drive.google.com/file/d/1qzA4Nslyn9v5z41uP_RqxyNu30UIgbrj/view?usp=share_link'}><i class="fa-solid fa-download"></i></a>
   </div>
 </div>
 

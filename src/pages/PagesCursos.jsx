@@ -1,22 +1,22 @@
 import React from 'react'
-import ComponentsAbout from '../components/about/ComponentsAbout'
+import ComponentsCursos from '../components/cursos/ComponentsCurso'
 import Footer from '../components/footer/ComponentsFooter'
 import Navbar from '../components/navbar/ComponentsNavbar'
 
 
-function PagesAbout() {
+function PagesCursos() {
   
   return (
     <div>
       <Navbar />
       <div className="container-fluid">
       <div className="d-sm-flex align-items-center justify-content-between mb-4">
-        <h1 className="h3 mb-0 text-gray-800">Portfolio| About</h1>
+        <h1 className="h3 mb-0 text-gray-800">Portfolio| Cursos</h1>
       </div>
 
       <div className="row justify-content-center">
           
-        <ComponentsAbout />
+        <ComponentsCursos />
       </div>
     </div>
     <Footer />
@@ -25,4 +25,4 @@ function PagesAbout() {
   )
 }
 
-export default PagesAbout
+export default PagesCursos;
