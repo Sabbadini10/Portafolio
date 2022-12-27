@@ -1,4 +1,5 @@
 import React from 'react';
+import "../../components/main/Main.css"
 
 
 function ImagenPerfil(props){

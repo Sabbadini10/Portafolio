@@ -27,19 +27,20 @@
     font-family: var(--parrafo-2);
 }
 
-.fa-brands{
+.main-icono{
 font-size: 30px;
 color: antiquewhite;
 }
 
-.fa-solid{
-    font-size: 30px;
-color: antiquewhite;
-}
 
 .main-contenedor-redes{
 margin-bottom: 47px;
 gap: 8em;
+}
+
+.main-imagen-perfil{
+    border: none;
+    border-radius: 5px;
 }
 
 

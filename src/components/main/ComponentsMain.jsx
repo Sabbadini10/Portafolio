@@ -33,23 +33,23 @@ function Main(){
 <div className='main-contenedor-redes d-flex justify-content-center'>
   <div className='d-flex flex-column align-items-sm-center'>
   <h6>Linkedin</h6>
-  <a href='https://www.linkedin.com/in/matias-sabbadini-desarrollador/'><i class="fa-brands fa-linkedin"></i></a>
+  <a href='https://www.linkedin.com/in/matias-sabbadini-desarrollador/'><i className="fa-brands fa-linkedin main-icono"></i></a>
   </div>
   <div className='d-flex flex-column align-items-sm-center'>
   <h6>Git-Hub</h6>
-  <a href='https://github.com/Sabbadini10'><i class="fa-brands fa-github"></i></a>
+  <a href='https://github.com/Sabbadini10'><i className="fa-brands fa-github main-icono"></i></a>
   </div>
   <div className='d-flex flex-column align-items-sm-center'>
   <h6>Facebook</h6>
-  <a  href='https://www.facebook.com/buon.aseo/'><i class="fa-brands fa-facebook"></i></a>
+  <a  href='https://www.facebook.com/buon.aseo/'><i className="fa-brands fa-facebook main-icono"></i></a>
   </div>
   <div className='d-flex flex-column align-items-sm-center'>
   <h6>Instagram</h6>
-  <a  href={'https://www.instagram.com/matias_sabbadini/'}><i class="fa-brands fa-instagram"></i></a>
+  <a  href={'https://www.instagram.com/matias_sabbadini/'}><i className="fa-brands fa-instagram main-icono"></i></a>
   </div>
   <div className='d-flex flex-column align-items-sm-center'>
   <h6>Curriculum</h6>
-  <a  href={'https://drive.google.com/file/d/1qzA4Nslyn9v5z41uP_RqxyNu30UIgbrj/view?usp=share_link'}><i class="fa-solid fa-download"></i></a>
+  <a  href={'https://drive.google.com/file/d/1qzA4Nslyn9v5z41uP_RqxyNu30UIgbrj/view?usp=share_link'}><i className="fa-solid fa-download main-icono"></i></a>
   </div>
 </div>
 
