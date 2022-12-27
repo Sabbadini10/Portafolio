@@ -9,7 +9,7 @@ import perfilImagen from '../../imagenes/fotoPerfil2.jpg'
 function Main(){
   return (
     <div className='Main'>
-      <h1 className='main-titulo display-1 d-flex justify-content-center'>Bienvenidos a mi Porfolio</h1>
+      <h1 className='main-titulo display-1 d-flex justify-content-center'>Bienvenidos a mi Portfolio</h1>
       <div className='d-flex flex-row justify-content-around align-items-center mt-3'>
       <div>
       <h2 className='main-titulo-subtitulo d-flex justify-content-center'>Matias Sabbadini</h2>
