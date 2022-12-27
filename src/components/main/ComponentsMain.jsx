@@ -51,6 +51,10 @@ function Main(){
   <h6>Curriculum</h6>
   <a  href={'https://drive.google.com/file/d/1qzA4Nslyn9v5z41uP_RqxyNu30UIgbrj/view?usp=share_link'}><i className="fa-solid fa-download main-icono"></i></a>
   </div>
+  <div className='d-flex flex-column align-items-sm-center'>
+  <h6>Email</h6>
+  <a  href={'mailto:matiassabbadini24@gmail.com?Subject=Interesado%20en%20contactarme'}><i className="fa-solid fa-envelope main-icono"></i></a>
+  </div>
 </div>
 
       </div>

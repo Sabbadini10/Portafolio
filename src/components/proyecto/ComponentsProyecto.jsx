@@ -1,10 +1,11 @@
 import React from 'react'
 import './Proyecto.css'
-import CardProyecto from '../cardProyectos/CardProyectos';
+import CardProyecto from './CardProyecto';
 
 function Proyecto() {
   return (
     <div className='Proyecto'> 
+    <div className='contenedor-proyecto'>
     <div className='cardProyecto-caja-1'>
     <CardProyecto 
     name="Buon Aseo"
@@ -22,7 +23,7 @@ function Proyecto() {
     link="/proyectos/:id" />
     </div>
    
-<div className='cardProyecto-caja-2'>
+<div className='cardProyecto-caja-1'>
 <CardProyecto
 name="Consumiendo Api"
 descripcion="proyecto solitario"
@@ -38,7 +39,7 @@ name="Bases de datos"
 descripcion="proyecto solitario"
 link="/proyectos/:id" />
 </div>
-
+</div>
 </div>
   )
 }

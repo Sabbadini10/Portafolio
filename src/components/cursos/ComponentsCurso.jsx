@@ -16,25 +16,25 @@ function Cursos() {
       <div className='cardCursos-caja-1'>
     <CardCursos 
     src={titulo1}
-    link='imagenes/titulos/Introducción-al-mundo-web.jpeg' />
+    link='https://www.linkedin.com/in/matias-sabbadini-desarrollador/overlay/1635508994823/single-media-viewer/?profileId=ACoAADbYNhABEXaixHHh3U3pKLYQx2Ggu2vJltY' />
 
 <CardCursos 
     src={titulo2}
-    link='imagenes/titulos/Introducción-a-la-Programación.jpeg' />
+    link='https://www.linkedin.com/in/matias-sabbadini-desarrollador/overlay/1635509000103/single-media-viewer/?profileId=ACoAADbYNhABEXaixHHh3U3pKLYQx2Ggu2vJltY' />
     </div>
    
 <div className='cardCursos-caja-1'>
 <CardCursos
 src={titulo3}
-link='imagenes/titulos/1661337490222.jpg' />
+link='https://www.linkedin.com/in/matias-sabbadini-desarrollador/overlay/1635500325402/single-media-viewer/?profileId=ACoAADbYNhABEXaixHHh3U3pKLYQx2Ggu2vJltY' />
 <CardCursos 
 src={titulo4}
-    link='imagenes/titulos/1628632400757.jpg' />
+    link='https://www.linkedin.com/in/matias-sabbadini-desarrollador/details/featured/1635465750398/single-media-viewer/?profileId=ACoAADbYNhABEXaixHHh3U3pKLYQx2Ggu2vJltY' />
 </div>
 <div className='cardCursos-caja-1'>
 <CardCursos
 src={titulo5}
-link='imagenes/titulos/1628632685254.jpg' />
+link='https://www.linkedin.com/in/matias-sabbadini-desarrollador/details/featured/1635465748664/single-media-viewer/?profileId=ACoAADbYNhABEXaixHHh3U3pKLYQx2Ggu2vJltY' />
 <CardCursos 
 src={titulo6}
     link='imagenes/titulos/Introducción-al-mundo-web.jpeg' />
