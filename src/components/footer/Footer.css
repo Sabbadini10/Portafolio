@@ -2,7 +2,7 @@
 
 .Footer{
     background-color: black;
-    height: 55px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -10,6 +10,7 @@
 
 .Footer-span {
     color: white;
+    font-size: 10px;
     font-weight: 900;
     font-family: var(--parrafo-2);
     

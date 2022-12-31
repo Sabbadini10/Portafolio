@@ -1,7 +1,11 @@
 @import '../../components/app/App.css';
 
-.navbar {
-    height: 50px;
+.Navbar{
+    height: 100px
+}
+
+.navbar{
+    height: 40px;
 }
 
 .navbar-nav{
@@ -11,17 +15,25 @@
     justify-content: space-around;
 }
 
+.nav-item{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
 .nav-link{
-    color: white;
+    color: antiquewhite;
     font-weight: 900;
     font-family: var(--parrafo-2);
-    font-size: 15px;
+    font-size: 7px;
 }
 
 .Navbar-span-icono{
-    color: aliceblue;
+    color: antiquewhite;
 }
 
 .nav-link:hover{
     color: aqua;
 }
+
+

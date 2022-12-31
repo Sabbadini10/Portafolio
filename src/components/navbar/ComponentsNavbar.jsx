@@ -7,10 +7,8 @@ function Navbar() {
   return (
     <>
       <div className='Navbar'>
-      <nav className="navbar navbar-expand-lg bg-dark d-flex gap-10px">
-    <div className="container-fluid"> 
-    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul className="navbar-nav d-flex gap-20px">
+      <nav className="navbar bg-dark ">
+    <ul className="navbar-nav d-flex gap-2 flex-row">
     <li className="nav-item d-flex flex-row align-items-center">
       <span className='Navbar-span-icono'><i class="fa-solid fa-house"></i></span>
         <Link className="nav-link" to='/'>Home</Link>
@@ -28,8 +26,6 @@ function Navbar() {
             <Link className="nav-link"  to='/proyecto'>Proyectos</Link>
           </li>
         </ul>
-      </div>
-    </div>
   </nav>
     </div>
 
