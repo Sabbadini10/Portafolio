@@ -20,3 +20,13 @@
   --parrafo-1 : 'Yanone Kaffeesatz', sans-serif;
   --parrafo-2 : 'Signika Negative', sans-serif;
 }
+
+
+h1{
+  color: antiquewhite;
+}
+
+
+p{
+  color: antiquewhite;
+}

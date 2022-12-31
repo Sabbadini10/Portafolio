@@ -1,9 +1,8 @@
-.Home {
+.PagesHome {
   background-image: url('../../imagenes/8ec422181b3f4f.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  color: aliceblue;
-  margin-top: -60px;
+  height:auto;
   }
 
 

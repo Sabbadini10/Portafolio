@@ -27,6 +27,7 @@
     font-size: 12px;
     font-family: var(--subtitulos-2);
     display: flex;
+    color: antiquewhite;
    justify-content: center; 
 }
 
@@ -34,11 +35,13 @@
 .main-titulo-parrafo{
     font-size: 10px;
     margin-top: 10px;
+    color: aliceblue;
     font-family: var(--parrafo-2);
 }
 
 .main-redes-titulo{
     font-size: 10px;
+    color: aliceblue;
 }
 
 

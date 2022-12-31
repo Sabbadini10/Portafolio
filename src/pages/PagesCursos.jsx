@@ -7,7 +7,7 @@ import Navbar from '../components/navbar/ComponentsNavbar'
 function PagesCursos() {
   
   return (
-    <div>
+    <div className='PagesCursos'>
       <Navbar />
       <div className="container-fluid">
       <div className="row justify-content-center">

@@ -1,8 +1,8 @@
-.Proyecto {
+.PagesProyecto {
   background-image: url('../../imagenes/8ec422181b3f4f.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: -60px;
+  height:auto;
 }
 
 .contenedor-proyecto{
@@ -13,10 +13,31 @@
   margin-top: 10px;
 }
 
-
+.cardProyectos{
+  width: 15rem
+}
 
 .cardProyecto-caja-1{
     display: flex;
     flex-direction: column;
     width: 80%;
+}
+
+@media only screen and (min-width: 768px) {
+  
+  .cardProyectos{
+    width: 15rem
+  }
+
+  .contenedor-proyecto{
+    flex-direction: row;
+    gap: 50px;
+  }
+  
+  .cardProyecto-caja-1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 33%;
+}
 }

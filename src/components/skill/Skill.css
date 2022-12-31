@@ -1,16 +1,21 @@
-.Skill {
+.PagesSkill {
     background-image: url('../../imagenes/8ec422181b3f4f.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    color: aliceblue;
-     margin-top: -111px;
-    
-}
+    height:auto;
+  }
 
 
 .card-skill{
 width: 90%;
 }
+
+.skill-imagen{
+    width: 15rem ;
+    height: 10rem;
+}
+
+
 
 .contenedor-card-skill{
     display: flex;
@@ -24,5 +29,30 @@ width: 90%;
     flex-direction: column;
    justify-content: center;
    align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .card-skill{
+        width: 90%;
+        }
+
+        .skill-imagen{
+            width: 10rem ;
+            height: 5rem;
+        }
+        
+        .contenedor-card-skill{
+            display: flex;
+            flex-direction: column;
+           justify-content: center;
+           align-items: center;
+        }
+        
+        .cardSkill-caja-1{
+            display: flex;
+            flex-direction: row;
+           justify-content: center;
+           align-items: center;
+        }
 }
 

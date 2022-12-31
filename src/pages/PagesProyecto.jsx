@@ -7,7 +7,7 @@ import ComponentsProyecto from '../components/proyecto/ComponentsProyecto'
 function PagesProyecto() {
   
   return (
-    <div>
+    <div className='PagesProyecto'>
       <Navbar />
     <div className="container-fluid">
       <div className="row justify-content-center">
