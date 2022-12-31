@@ -10,11 +10,11 @@ function Main(){
   return (
     <div className='Main'>
       <h1 className='main-titulo d-flex justify-content-center '>Bienvenidos a mi Portfolio</h1>
-      <div className='justify-content-around align-items-center mt-3 '>
       <div className= 'main-titulo-contenedor'>
       <h2 className='main-titulo-subtitulo'>Matias Sabbadini</h2>
       <h5 className='main-titulo-subtitulo'>Full Stack Web</h5>
       </div>
+      <div className='main-contenedor-parrafo-imagen mt-3 '>
       <div className='main-titulo-parrafo-contenedor'>
       <p className='main-titulo-parrafo d-flex justify-content-center'> 
       A lo largo de estos años, he tenido el privilegio de formar parte <br/> 
@@ -30,7 +30,7 @@ function Main(){
 </div>
       </div>
       <hr className="border border-primary border-3 opacity-75"></hr>
-<div className='main-contenedor-redes d-flex justify-content-between align-items-center'>
+<div className='main-contenedor-redes '>
   <div className='d-flex flex-column align-items-center justify-content-center'>
   <h6 className='main-redes-titulo'>Linkedin</h6>
   <a href='https://www.linkedin.com/in/matias-sabbadini-desarrollador/'><i className="fa-brands fa-linkedin main-icono"></i></a>
@@ -46,7 +46,7 @@ function Main(){
  
   
   </div>
-  <div className='main-contenedor-redes d-flex justify-content-between align-items-center'>
+  <div className='main-contenedor-redes '>
   <div className='d-flex flex-column align-items-center justify-content-center'>
   <h6 className='main-redes-titulo'>Instagram</h6>
   <a  href={'https://www.instagram.com/matias_sabbadini/'}><i className="fa-brands fa-instagram main-icono"></i></a>
