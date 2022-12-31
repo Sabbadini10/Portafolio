@@ -16,6 +16,7 @@ import CardSkill from './CardSkills';
 function Skill() {
   return (
     <div className='Skill'>
+      <h1 className='main-titulo d-flex justify-content-center '>Skills</h1>
       <div className='contenedor-skill container-fluid d-flex flex-column justify-content-center align-items-center mt-3'>
       <div className='cardSkill-caja-1'>
     <CardSkill 

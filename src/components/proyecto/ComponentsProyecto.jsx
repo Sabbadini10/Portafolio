@@ -5,6 +5,8 @@ import CardProyecto from './CardProyecto';
 function Proyecto() {
   return (
     <div className='Proyecto'> 
+      <h1 className='main-titulo d-flex justify-content-center '>Proyectos</h1>
+
     <div className='contenedor-proyecto'>
     <div className='cardProyecto-caja-1'>
     <CardProyecto 

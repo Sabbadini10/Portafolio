@@ -7,9 +7,39 @@
  }
 
 
+ .card-curso {
+     width: 16rem
+ }
  .cardCurso-caja-1{
      display: flex;
      flex-direction: column;
      width: 90%;
-    justify-content: space-around;
+ }
+
+ .contenedor-curso{
+     display: flex;
+     flex-direction: column; 
+     align-items: center;
+ }
+
+
+ @media only screen and (min-width: 768px) {
+     .card-curso {
+          width: 14rem
+      }
+
+     .cardCurso-caja-1{
+          display: flex;
+          flex-direction: column;
+          width: 70%;
+      }
+
+      .contenedor-curso{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          gap: 10px;
+      }
+
+     
  }

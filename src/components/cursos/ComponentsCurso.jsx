@@ -12,7 +12,8 @@ import titulo6 from '../../imagenes/titulos/Introducción-al-mundo-web.jpeg'
 function Cursos() {
   return (
     <div className='Cursos'>
-      <div className='contenedor-curso container-fluid d-flex flex-column justify-content-around align-items-center mt-3'>
+      <h1 className='main-titulo d-flex justify-content-center '>Cursos</h1>
+      <div className='contenedor-curso container-fluid mt-3'>
       <div className='cardCursos-caja-1'>
     <CardCursos 
     src={titulo1}
