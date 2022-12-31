@@ -3,7 +3,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     color: aliceblue;
-     margin-top: -60px;
+     margin-top: -111px;
+    
 }
 
 
@@ -11,9 +12,17 @@
 width: 90%;
 }
 
+.contenedor-card-skill{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
 .cardSkill-caja-1{
     display: flex;
-    flex-direction: row;
-   justify-content: space-around;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
 

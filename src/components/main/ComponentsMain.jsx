@@ -29,9 +29,8 @@ function Main(){
   <ImagenPerfil src={perfilImagen} />
 </div>
       </div>
-      
-<hr className="border border-primary border-3 opacity-75"></hr>
-<div className='main-contenedor-redes d-flex justify-content-center align-items-center'>
+      <hr className="border border-primary border-3 opacity-75"></hr>
+<div className='main-contenedor-redes d-flex justify-content-between align-items-center'>
   <div className='d-flex flex-column align-items-center justify-content-center'>
   <h6 className='main-redes-titulo'>Linkedin</h6>
   <a href='https://www.linkedin.com/in/matias-sabbadini-desarrollador/'><i className="fa-brands fa-linkedin main-icono"></i></a>
@@ -41,9 +40,13 @@ function Main(){
   <a href='https://github.com/Sabbadini10'><i className="fa-brands fa-github main-icono"></i></a>
   </div>
   <div className='d-flex flex-column align-items-center justify-content-center'>
-  <h6 className='main-redes-titulo'>Facebook</h6>
-  <a  href='https://www.facebook.com/buon.aseo/'><i className="fa-brands fa-facebook main-icono"></i></a>
+  <h6 className='main-redes-titulo'>Email</h6>
+  <a  href={'mailto:matiassabbadini24@gmail.com?Subject=Interesado%20en%20contactarme'}><i className="fa-solid fa-envelope main-icono"></i></a>
   </div>
+ 
+  
+  </div>
+  <div className='main-contenedor-redes d-flex justify-content-between align-items-center'>
   <div className='d-flex flex-column align-items-center justify-content-center'>
   <h6 className='main-redes-titulo'>Instagram</h6>
   <a  href={'https://www.instagram.com/matias_sabbadini/'}><i className="fa-brands fa-instagram main-icono"></i></a>
@@ -53,10 +56,12 @@ function Main(){
   <a  href={'https://drive.google.com/file/d/1qzA4Nslyn9v5z41uP_RqxyNu30UIgbrj/view?usp=share_link'}><i className="fa-solid fa-download main-icono"></i></a>
   </div>
   <div className='d-flex flex-column align-items-center justify-content-center'>
-  <h6 className='main-redes-titulo'>Email</h6>
-  <a  href={'mailto:matiassabbadini24@gmail.com?Subject=Interesado%20en%20contactarme'}><i className="fa-solid fa-envelope main-icono"></i></a>
+  <h6 className='main-redes-titulo'>Facebook</h6>
+  <a  href='https://www.facebook.com/buon.aseo/'><i className="fa-brands fa-facebook main-icono"></i></a>
   </div>
-</div>
+  </div>
+<hr className="border border-primary border-3 opacity-75"></hr>
+      
 
       </div>
      
