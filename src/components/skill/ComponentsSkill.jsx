@@ -22,45 +22,41 @@ function Skill() {
     <CardSkill 
     src={skill1}
     name="Express.js"
-    link='' />
+   />
 
 <CardSkill 
     src={skill2}
     name="CSS3"
-    link='' />
+   />
     
     <CardSkill
 src={skill3}
-name="Boostrap"
-link='' />
+name="Boostrap" />
 <CardSkill 
 src={skill4}
 name="HTML5"
-    link='' />
+   />
 </div>
 <div className='cardSkill-caja-1'>
 <CardSkill
 src={skill5}
-name="Javascript"
-link='' />
+name="Javascript" />
 <CardSkill 
 src={skill6}
 name="MySQL"
-    link='' />
+   />
     <CardSkill
 src={skill7}
-name="Node.js"
-link='' />
+name="Node.js" />
 <CardSkill 
 src={skill8}
 name="React.js"
-    link='' />
+   />
 </div>
 <div className='cardSkill-caja-1'>
 <CardSkill
 src={skill9}
-name="Sequelize"
-link='' />
+name="Sequelize" />
 <CardSkill 
 src={skill10}
 name="Git"

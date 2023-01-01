@@ -30,3 +30,28 @@ h1{
 p{
   color: antiquewhite;
 }
+
+.btn {
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #91C9FF;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+.btn:hover {
+  transition: 1s ease-in-out;
+  background: #4F95DA;
+}
+
+.card {
+  border: 1px solid #91C9FF;
+  outline: none;
+  transition: 1s ease-in-out;
+  box-shadow: 3px 3px 2px 2px rgba(247, 241, 241, 0.2)
+}
+
+.card:hover {
+  transition: 1s ease-in-out;
+  background: #4F95DA;
+}

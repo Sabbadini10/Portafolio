@@ -17,11 +17,13 @@ function Main(){
       <div className='main-contenedor-parrafo-imagen mt-3 '>
       <div className='main-titulo-parrafo-contenedor'>
       <p className='main-titulo-parrafo d-flex justify-content-center'> 
-      A lo largo de estos años, he tenido el privilegio de formar parte <br/> 
-      en la creación de webs como geekletics.es y peternappi.es, <br/> 
-      las cuales han cultivado un gran éxito, tanto en tráfico como en conversiones. <br/> 
-      Busco formar parte de Gesico Sistemas para mi capacidad creativa al siguiente nivel, <br/> 
-      aportando mis amplio conocimientos en CSS y Prestashop.
+      Hola me llamo de Matias Sabbadini, tengo 31 años y soy de Neuquen, Argentina. 
+      Soy un estudiante de programación autodidacta con iniciativa y ganas de superarse. 
+      Cuento con la capacidad de trabajar en equipo y resolución de problemas. 
+      Busco mi primer trabajo IT para poder adquirir nuevas experiencias en lo profesional y en lo personal.
+      He estudiado el curso de 'Programación web full stack' en Digital House gracias a una beca 
+      otorgada por la Fundación Formar en conjunto con Pampa Energia y Banco Santander. En este curso aprendí a programar 
+      en JavaScript, HTML, CSS, React JS, Node JS, Express JS, Mysql, GIT, Bootstrap, entre otras tecnologías.
       </p>
       </div>
       
@@ -29,7 +31,8 @@ function Main(){
   <ImagenPerfil src={perfilImagen} />
 </div>
       </div>
-      <hr className="border border-primary border-3 opacity-75"></hr>
+      <h5 className='text-center mt-5 text-light'>Redes</h5>
+      <hr className="border border-primary border-3 opacity-50"></hr>
 <div className='main-contenedor-redes '>
   <div className='d-flex flex-column align-items-center justify-content-center'>
   <h6 className='main-redes-titulo'>Linkedin</h6>
@@ -43,24 +46,16 @@ function Main(){
   <h6 className='main-redes-titulo'>Email</h6>
   <a  href={'mailto:matiassabbadini24@gmail.com?Subject=Interesado%20en%20contactarme'}><i className="fa-solid fa-envelope main-icono"></i></a>
   </div>
- 
-  
-  </div>
-  <div className='main-contenedor-redes '>
   <div className='d-flex flex-column align-items-center justify-content-center'>
   <h6 className='main-redes-titulo'>Instagram</h6>
   <a  href={'https://www.instagram.com/matias_sabbadini/'}><i className="fa-brands fa-instagram main-icono"></i></a>
   </div>
-  <div className='d-flex flex-column align-items-center justify-content-center'>
+  <div className='d-flex flex-column align-items-center'>
   <h6 className='main-redes-titulo'>Curriculum</h6>
   <a  href={'https://drive.google.com/file/d/1qzA4Nslyn9v5z41uP_RqxyNu30UIgbrj/view?usp=share_link'}><i className="fa-solid fa-download main-icono"></i></a>
   </div>
-  <div className='d-flex flex-column align-items-center justify-content-center'>
-  <h6 className='main-redes-titulo'>Facebook</h6>
-  <a  href='https://www.facebook.com/buon.aseo/'><i className="fa-brands fa-facebook main-icono"></i></a>
   </div>
-  </div>
-<hr className="border border-primary border-3 opacity-75"></hr>
+<hr className="border border-primary border-3 opacity-50"></hr>
       
 
       </div>
