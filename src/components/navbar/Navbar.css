@@ -39,15 +39,15 @@
 
 @media only screen and (min-width: 768px){
     .Navbar{
-        height: 60px
+        height: 70px
     }
     
     .navbar{
-        height: 60px;
+        height: 70px;
     }
     
     .nav-link{
-        font-size: 10px;
+        font-size: 15px;
     }
     
     .Navbar-span-icono{
@@ -56,7 +56,7 @@
     
     .nav-link:hover, .Navbar-span-icono:hover{
         color: aqua;
-        font-size: 15px;
+        font-size: 20px;
     }
 
 }

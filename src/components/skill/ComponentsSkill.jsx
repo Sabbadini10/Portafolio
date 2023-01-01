@@ -10,6 +10,8 @@ import skill7 from '../../imagenes/skills/NODEJS.png'
 import skill8 from '../../imagenes/skills/REACTJS.png'
 import skill9 from '../../imagenes/skills/SEQUELIZE.png'
 import skill10 from '../../imagenes/skills/GIT.png'
+import skill11 from '../../imagenes/skills/slack.jpg'
+import skill12 from '../../imagenes/skills/trello.jpg'
 import CardSkill from './CardSkills';
 
 
@@ -59,8 +61,13 @@ src={skill9}
 name="Sequelize" />
 <CardSkill 
 src={skill10}
-name="Git"
-    link='' />
+name="Git" />
+<CardSkill 
+src={skill11}
+name="Slack" />
+<CardSkill 
+src={skill12}
+name="Trello" />
 </div>
       </div>
     
