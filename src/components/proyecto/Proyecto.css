@@ -5,23 +5,20 @@
   height:auto;
 }
 
-.contenedor-proyecto{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 10px;
-  width: 100%;
-}
-
 .cardProyectos{
-  width: 18rem
+  width: 16rem
 }
 
 .cardProyecto-caja-1{
     display: flex;
     flex-direction: column;
-    width: 98%;
+    width: 90%;
+}
+
+.contenedor-proyecto{
+  display: flex;
+  flex-direction: column;
+  width: 60em;
 }
 
 .cardProyectos-parrafo{
