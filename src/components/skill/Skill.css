@@ -15,8 +15,6 @@ width: 90%;
     height: 10rem;
 }
 
-
-
 .contenedor-card-skill{
     display: flex;
     flex-direction: column;
@@ -33,26 +31,45 @@ width: 90%;
 
 @media only screen and (min-width: 768px) {
     .card-skill{
-        width: 90%;
+        width: 100%;
+        }
+        .contenedor-skill{
+            width: 130%;
         }
 
+
         .skill-imagen{
-            width: 10rem ;
-            height: 5rem;
+            width: 18rem ;
         }
         
-        .contenedor-card-skill{
+        
+        .cardSkill-caja-1{
+            width: 40%;
             display: flex;
             flex-direction: column;
            justify-content: center;
            align-items: center;
         }
+}
+
+@media only screen and (min-width: 1024px) {
+    .card-skill{
+        width: 100%;
+        }
+        .contenedor-skill{
+            width: 125%;
+            
+        }
+
+        .skill-imagen{
+            width: 18rem;
+           
+        }
+        
         
         .cardSkill-caja-1{
-            display: flex;
-            flex-direction: row;
-           justify-content: center;
-           align-items: center;
+            width: 27%;
         }
 }
+
 

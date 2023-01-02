@@ -29,10 +29,10 @@
 
 @media only screen and (min-width: 1024px) {
     .Footer{
-        height: 60px;
+        height: 70px;
     }
     
     .Footer-span {
-        font-size: 15px;
+        font-size: 18px;
     }
 }
