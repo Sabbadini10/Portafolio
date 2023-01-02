@@ -65,7 +65,7 @@ margin-bottom: 7px;
     border: 2px groove whitesmoke;
     border-radius: 50%;
     display: flex;
-    width: 10rem;
+    width: 13rem;
     height: 13rem;
 }
 
@@ -97,7 +97,7 @@ margin-bottom: 7px;
     
     
     .main-titulo-parrafo{
-        font-size: 18px;
+        font-size: 20px;
         margin-top: 10px;
         width: 70%;
         margin-left: 25px;
@@ -120,7 +120,7 @@ margin-bottom: 7px;
     
     .main-imagen-perfil{
        width: 16rem;
-        
+       height: 16rem;
     }
     
     .main-contenedor-imagen{
@@ -166,7 +166,7 @@ margin-bottom: 7px;
     
     
     .main-titulo-parrafo{
-        font-size: 15px;
+        font-size: 20px;
         margin-top: 10px;
     }
     
@@ -190,10 +190,9 @@ margin-bottom: 7px;
     }
     
     .main-imagen-perfil{
-        border: none;
-        border-radius: 5px;
         display: flex;
         justify-content: flex-end;
+        margin-right: 10px;
     }
     
     .main-contenedor-imagen{
