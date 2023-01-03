@@ -21,9 +21,9 @@ function Main(){
       Soy un estudiante de programación autodidacta con iniciativa y ganas de superarse. 
       Cuento con la capacidad de trabajar en equipo y resolución de problemas. 
       Busco mi primer trabajo IT para poder adquirir nuevas experiencias en lo profesional y en lo personal.
-      He estudiado el curso de 'Programación web full stack' en Digital House gracias a una beca 
-      otorgada por la Fundación Formar en conjunto con Pampa Energia y Banco Santander. En este curso aprendí a programar 
-      en JavaScript, HTML, CSS, React JS, Node JS, Express JS, Mysql, GIT, Bootstrap, entre otras tecnologías.
+      He estudiado el curso de Programación web full stack en Digital House gracias a una beca 
+      otorgada por la Fundación Formar en conjunto con Pampa Energia y Banco Santander. En este curso me capacite en las siguientes tecnologías
+      en JavaScript, HTML5, CSS3, React JS, Node JS, Express JS, Mysql, GIT, Bootstrap, entre otras.
       </p>
       </div>
       
@@ -33,7 +33,7 @@ function Main(){
       </div>
       <h5 className='text-center mt-5 text-light'>Redes</h5>
       <hr className="border border-primary border-3 opacity-50"></hr>
-<div className='main-contenedor-redes '>
+<div className='main-contenedor-redes'>
   <div className='d-flex flex-column align-items-center justify-content-center'>
   <h6 className='main-redes-titulo'>Linkedin</h6>
   <a href='https://www.linkedin.com/in/matias-sabbadini-desarrollador/'><i className="main-redes-iconos fa-brands fa-linkedin"></i></a>

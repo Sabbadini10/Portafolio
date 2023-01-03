@@ -126,6 +126,7 @@ color: rgb(88, 89, 90);
     
     .main-contenedor-redes{
     gap: 15px;
+    height: 50px;
     }
     
     .main-imagen-perfil{
