@@ -36,23 +36,23 @@ function Main(){
 <div className='main-contenedor-redes '>
   <div className='d-flex flex-column align-items-center justify-content-center'>
   <h6 className='main-redes-titulo'>Linkedin</h6>
-  <a href='https://www.linkedin.com/in/matias-sabbadini-desarrollador/'><i className="fa-brands fa-linkedin main-icono"></i></a>
+  <a href='https://www.linkedin.com/in/matias-sabbadini-desarrollador/'><i className="main-redes-iconos fa-brands fa-linkedin"></i></a>
   </div>
   <div className='d-flex flex-column align-items-center justify-content-center'>
   <h6 className='main-redes-titulo'>Git-Hub</h6>
-  <a href='https://github.com/Sabbadini10'><i className="fa-brands fa-github main-icono"></i></a>
+  <a href='https://github.com/Sabbadini10'><i className="main-redes-iconos fa-brands fa-github"></i></a>
   </div>
   <div className='d-flex flex-column align-items-center justify-content-center'>
   <h6 className='main-redes-titulo'>Email</h6>
-  <a  href={'mailto:matiassabbadini24@gmail.com?Subject=Interesado%20en%20contactarme'}><i className="fa-solid fa-envelope main-icono"></i></a>
+  <a  href={'mailto:matiassabbadini24@gmail.com?Subject=Interesado%20en%20contactarme'}><i className="main-redes-iconos fa-solid fa-envelope"></i></a>
   </div>
   <div className='d-flex flex-column align-items-center justify-content-center'>
   <h6 className='main-redes-titulo'>Instagram</h6>
-  <a  href={'https://www.instagram.com/matias_sabbadini/'}><i className="fa-brands fa-instagram main-icono"></i></a>
+  <a  href={'https://www.instagram.com/matias_sabbadini/'}><i className="main-redes-iconos fa-brands fa-instagram"></i></a>
   </div>
   <div className='d-flex flex-column align-items-center'>
   <h6 className='main-redes-titulo'>Curriculum</h6>
-  <a  href={'https://drive.google.com/file/d/1qzA4Nslyn9v5z41uP_RqxyNu30UIgbrj/view?usp=share_link'}><i className="fa-solid fa-download main-icono"></i></a>
+  <a  href={'https://drive.google.com/file/d/1qzA4Nslyn9v5z41uP_RqxyNu30UIgbrj/view?usp=share_link'}><i className="main-redes-iconos fa-solid fa-download"></i></a>
   </div>
   </div>
 <hr className="border border-primary border-3 opacity-50"></hr>

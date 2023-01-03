@@ -5,6 +5,7 @@
     height:min-content;
     display: flex;
     flex-direction: column;
+    min-height: calc(100vh - 140px);
 }
 
 .main-titulo {
@@ -46,15 +47,24 @@
 }
 
 
-.main-icono{
+.main-redes-iconos{
 font-size: 20px;
 color: aliceblue;
 }
 
+.main-redes-iconos:hover{
+  font-size: 30px;
+color: rgb(88, 89, 90);
+-webkit-animation: 3s rotate linear infinite;
+    animation: 3s rotate linear infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
 
 .main-contenedor-redes{
-gap: 15px;
-margin-bottom: 7px;
+    gap: 15px;
+    margin-bottom: 5px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;

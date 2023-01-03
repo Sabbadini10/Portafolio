@@ -3,7 +3,7 @@ import './Footer.css'
 
 function Footer() {
   return (
-    <footer className="Footer sticky-footer bg-black">
+    <footer className="Footer footer sticky-footer bg-black">
     <div className="container my-auto">
       <div className="copyright text-center my-auto Footer-span">
         <span>Copyright &copy; Matias Sabbadini (2022)</span>
