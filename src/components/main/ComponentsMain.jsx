@@ -17,7 +17,7 @@ function Main(){
       <div className='main-contenedor-parrafo-imagen mt-3 '>
       <div className='main-titulo-parrafo-contenedor'>
       <p className='main-titulo-parrafo d-flex justify-content-center'> 
-      Hola me llamo de Matias Sabbadini, tengo 31 años y soy de Neuquen, Argentina. 
+      Hola me llamo Matias Sabbadini, tengo 31 años y soy de Neuquen, Argentina. 
       Soy un estudiante de programación autodidacta con iniciativa y ganas de superarse. 
       Cuento con la capacidad de trabajar en equipo y resolución de problemas. 
       Busco mi primer trabajo IT para poder adquirir nuevas experiencias en lo profesional y en lo personal.

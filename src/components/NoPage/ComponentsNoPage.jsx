@@ -1,5 +1,5 @@
 import React from 'react'
-import errorImage from '../../imagenes/hommer-404.jpg'
+import errorImage from '../../imagenes/error404.webp'
 import ImagenError from '../imagen/ImagenError';
 import "./NoPages.css"
 
@@ -11,7 +11,7 @@ function ComponentsNoPage() {
       </div>
 
       <div>
-        <h1 className='error-titulo'>Pagina no encontrada</h1>
+       
       </div>
     </div>
     
