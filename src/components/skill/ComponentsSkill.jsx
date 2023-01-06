@@ -19,7 +19,7 @@ function Skill() {
   return (
     <div className='Skill'>
       <h1 className='main-titulo d-flex justify-content-center '>Skills</h1>
-      <div className='contenedor-skill  row row-lg-3 row-md-2 row-sm-1 mt-3'>
+      <div className='contenedor-skill row row-lg-3 row-md-2 row-sm-1 mt-3'>
       <div className='cardSkill-caja-1'>
     <CardSkill 
     src={skill1}

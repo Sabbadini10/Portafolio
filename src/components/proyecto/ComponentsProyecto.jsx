@@ -65,11 +65,11 @@ github="https://github.com/Sabbadini10/tp-validando-form-C40" />
 </div>
 <div className='cardProyecto-caja-1'>
 <CardProyecto 
-name="Estilos con Javascript"
-lenguajes="Javascript"
+name="Pagina Maestro Mayor de obras"
+lenguajes="HTML5, CSS3, Javascript, Bootstrap, NodeJS, ExpressJS, React, Mysql"
 descripcion="Proyecto Solitario"
-deploy="-"
-github="https://github.com/Sabbadini10/tp_clase-38/blob/master/public/js/moviesList.js" />
+deploy="https://rf-m-m-o.netlify.app/"
+github="https://github.com/Sabbadini10/pagina-web-maestro-mayor-de-obras" />
 </div>
 </div>
 </div>
