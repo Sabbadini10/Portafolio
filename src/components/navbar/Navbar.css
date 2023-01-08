@@ -34,14 +34,14 @@
 }
 
 .nav-link:hover{
-    color: gray;
+    color: rgb(223, 225, 235);
 }
 
 @keyframes rotate {from {transform: rotate(0deg);}
     to {transform: rotate(360deg);}}
 @-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
   to {-webkit-transform: rotate(360deg);}}
-.Navbar-span-icono{
+.Navbar-span-icono:hover{
     -webkit-animation: 3s rotate linear infinite;
     animation: 3s rotate linear infinite;
     -webkit-transform-origin: 50% 50%;
@@ -67,7 +67,7 @@
     }
     
     .nav-link:hover, .Navbar-span-icono:hover{
-        color: gray;
+        color:rgb(223, 225, 235);
         font-size: 20px;
     }
 

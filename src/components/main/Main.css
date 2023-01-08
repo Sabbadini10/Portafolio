@@ -33,6 +33,8 @@
 }
 
 
+
+
 .main-titulo-parrafo{
     font-size: 10px;
     margin-top: 10px;
@@ -54,7 +56,7 @@ color: aliceblue;
 
 .main-redes-iconos:hover{
   font-size: 30px;
-color: rgb(88, 89, 90);
+color: rgb(223, 225, 235);
 -webkit-animation: 3s rotate linear infinite;
     animation: 3s rotate linear infinite;
     -webkit-transform-origin: 50% 50%;
@@ -72,16 +74,27 @@ color: rgb(88, 89, 90);
 }
 
 .main-imagen-perfil{
-    border: 2px groove whitesmoke;
     border-radius: 50%;
     display: flex;
     width: 13rem;
     height: 13rem;
+    padding: 7px;
+    border: 3px groove whitesmoke;
+  background: rgb(223, 225, 235);
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 .main-contenedor-imagen{
     display: flex;
     justify-content: center;
+}
+
+
+.main-imagen-perfil:hover {
+  transition: 1s ease-in-out;
+  background: rgb(17,7,184);
+background: linear-gradient(90deg, rgba(17,212,225,1) 0%, rgb(28, 227, 241) 35%, rgba(0,212,255,1) 100%);
 }
 
 

@@ -32,26 +32,34 @@ p{
 }
 
 .btn {
-  cursor: pointer;
-  background: transparent;
-  border: 1px solid #91C9FF;
-  outline: none;
-  transition: 1s ease-in-out;
-}
+  width: 9em;
+  height: 3em;
+  border-radius: 30em;
+  font-size: 15px;
+  font-family: inherit;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: 6px 6px 12px #c5c5c5,
+              -6px -6px 12px #ffffff;
+ }
+ 
+ .btn::before {
+  content: '';
+  width: 0;
+  height: 3em;
+  border-radius: 30em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);
+  transition: .5s ease;
+  display: block;
+  z-index: -1;
+ }
+ 
+ .btn:hover::before {
+  width: 9em;
+ }
 
-.btn:hover {
-  transition: 1s ease-in-out;
-  background: #4F95DA;
-}
-
-.card {
-  border: 1px solid #91C9FF;
-  outline: none;
-  transition: 1s ease-in-out;
-  box-shadow: 3px 3px 2px 2px rgba(247, 241, 241, 0.2)
-}
-
-.card:hover {
-  transition: 1s ease-in-out;
-  background: #4F95DA;
-}

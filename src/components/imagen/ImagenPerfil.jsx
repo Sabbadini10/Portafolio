@@ -4,7 +4,7 @@ import "../../components/main/Main.css"
 
 function ImagenPerfil(props){
     return(
-      <div className="">
+      <div className="card-imagen">
       <img className="main-imagen-perfil d-flex" src={props.src} alt="Imagen Perfil" />
       </div>
     )

@@ -5,21 +5,44 @@
   height:auto;
 }
 
+.card {
+  padding: 7px;
+  width: 225px;
+  height: 275px;
+  background: rgb(223, 225, 235);
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+ }
+.card:hover {
+  transition: 1s ease-in-out;
+  background: rgb(17,7,184);
+background: linear-gradient(90deg, rgba(17,212,225,1) 0%, rgb(28, 227, 241) 35%, rgba(0,212,255,1) 100%);
+}
+
+
+
 .cardProyectos{
-  width: 15rem;
-  height: 16rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .cardProyecto-caja-1{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    width: 100%;
+    align-items: center;
+    width: 90%;
 }
 
 .contenedor-proyecto{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
 }
 
 .cardProyectos-parrafo{
@@ -28,54 +51,64 @@
 
 @media only screen and (min-width: 768px) {
   
-  .cardProyectos{
-    width: 19rem;
-    height: 19rem;
-    margin-top: 20px;
-  }
+.cardProyectos-parrafo{
+  font-size: 15px;
+}
 
-  .cardProyecto-caja-1{
+  .card {
+    width: 280px;
+    height: 330px;
+    padding: 15px;
+}
+
+.cardProyectos{
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardProyectos-caja-1{
+  width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 40%;
 }
 
-.contenedor-proyecto{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-
-.cardProyectos-parrafo{
-  font-size: 15px;
+.contenedor-proyectos{
+  width: 105%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
 }
 
 }
 
 @media only screen and (min-width: 1024px) {
-  
-  .cardProyectos{
-    width: 22rem;
-    height: 21rem;
-    margin-top: 20px;
-  }
-
   .cardProyectos-parrafo{
-    font-size: 20px;
+    font-size: 25px;
   }
 
-  .contenedor-proyecto{
-    flex-direction: row;
-    justify-content: center;
-    gap: 50px;
-  }
-  
-  .cardProyecto-caja-1{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    width: 27%;
+  .card {
+    width: 400px;
+    height: 420px;
+    padding: 20px;
+}
+
+.cardProyectos{
+  width: 45%;
+}
+
+.cardProyectos-caja-1{
+  width: 100%;
+    
+}
+
+.contenedor-proyectos{
+  width: 105%;
+    
+    gap: 10px;
 }
 }

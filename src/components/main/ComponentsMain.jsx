@@ -1,7 +1,7 @@
 import React from 'react';
 import ImagenPerfil from '../imagen/ImagenPerfil';
 import './Main.css';
-import perfilImagen from '../../imagenes/fotoPerfil2.jpg'
+import perfilImagen from '../../imagenes/FotoPerfil.png'
 
 
 
