@@ -1,0 +1,83 @@
+@import '../app/App.css';
+
+.PagesFormulario {
+    background-image: url('../../imagenes/8ec422181b3f4f.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:auto;
+    }
+
+
+    .contacto-formulario{
+        height: 400px;
+        width: 260px;
+        border-radius: 10px;
+    }
+
+    .contactos-boton{
+        margin-top: 10px;
+    }
+
+    .contacto-textarea{
+        resize: none;
+    }
+    
+
+    
+    @media only screen and (min-width: 768px){
+        .form-label{
+            font-size: 20px;
+            font-weight: 600;
+        }
+        
+        .contacto-formulario{
+            height: 450px;
+            width: 450px;
+            border-radius: 10px;
+        }
+
+        .contactos-boton{
+            margin-top: 10px;
+            width: 130px;
+            height: 40px;
+            font-size: 20px;
+        }
+
+
+        .contacto-textarea{
+            height: 100px;
+        }
+        .contacto-input{
+            height: 50px;
+        }
+
+    }
+    
+    @media only screen and (min-width: 1024px){
+        .form-label{
+            font-size: 25px;
+            font-weight: 600;
+        }
+    
+        .contacto-formulario{
+            height: 650px;
+            width: 800px;
+            border-radius: 10px;
+        }
+
+        .contactos-boton{
+            width: 200px;
+            height: 70px;
+            font-size: 25px;
+        }
+
+        .contacto-textarea{
+            height: 200px;
+        }
+        .contacto-input{
+            height: 60px;
+        }
+
+       
+    }
+

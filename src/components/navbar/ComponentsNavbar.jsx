@@ -25,6 +25,10 @@ function Navbar() {
             <span className='Navbar-span-icono'><i class="fa-sharp fa-solid fa-diagram-project"></i></span>
             <Link className="nav-link"  to='/proyecto'>Proyectos</Link>
           </li>
+          <li className="nav-item d-flex flex-row align-items-center" >
+            <span className='Navbar-span-icono'><i class="fa-solid fa-address-book"></i></span>
+            <Link className="nav-link"  to='/formulario'>Contacto</Link>
+          </li>
         </ul>
   </nav>
     </div>

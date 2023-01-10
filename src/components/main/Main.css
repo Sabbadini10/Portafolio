@@ -160,7 +160,7 @@ background: linear-gradient(90deg, rgba(17,212,225,1) 0%, rgb(28, 227, 241) 35%,
 
   @media only screen and (min-width: 1024px){
     .main-titulo {
-        font-size: 25px;
+        font-size: 35px;
         margin-top: 8px;
         text-align: center;
         width: 100%;
