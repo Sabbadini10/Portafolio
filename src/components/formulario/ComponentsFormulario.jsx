@@ -8,7 +8,7 @@ function ComponentsFormulario() {
     Contacto
   </h1>
   <div className="Contactos m-3 d-flex justify-content-center">
-    <form class="contacto-formulario card m-3" method="POST" action="mailto:matiassabbadini24@gmail.com?subject=CONTACTO ENTREVISTA" enctype ="text/plain" >
+    <form class="contacto-formulario card m-3" action="/sendEmail" autoComplete='on' method="POST">
       <div class="mb-3">
         <label for="formularioName" class="form-label text-dark">
           Nombre
@@ -17,6 +17,7 @@ function ComponentsFormulario() {
           type="text"
           class="contacto-input form-control"
           id="formularioName"
+          name='nombre'
           placeholder="Join Doin"
         />
       </div>
@@ -28,6 +29,7 @@ function ComponentsFormulario() {
           type="email"
           class="contacto-input form-control"
           id="formularioEmail"
+          name='email'
           placeholder="JoinDoin@example.com"
         />
       </div>
@@ -41,6 +43,7 @@ function ComponentsFormulario() {
         <textarea
           class="contacto-textarea form-control"
           id="formularioTextarea"
+          name='mensaje'
           rows="3"
         ></textarea>
       </div>

@@ -25,10 +25,7 @@ function Proyecto() {
     
 
 <CardProyecto 
-name="Contador de click"
-lenguajes="HTML5, CSS3, Javascript, React.js, Bootstrap"
-descripcion="Proyecto Solitario"
-deploy="https://contador-click-puce.vercel.app/"
+deploy="https://contador-v2.vercel.app/"
 github="https://github.com/Sabbadini10/contador-click-con-react" />
 
 
@@ -38,6 +35,13 @@ lenguajes="HTML5, CSS3, Javascript, Bootstrap, NodeJS, ExpressJS, React, Mysql"
 descripcion="Proyecto Solitario"
 deploy="https://rf-m-m-o.netlify.app/"
 github="https://github.com/Sabbadini10/pagina-web-maestro-mayor-de-obras" />
+
+<CardProyecto 
+name="Contador Click Angular"
+lenguajes="HTML5, CSS3, Javascript, Bootstrap, Angular"
+descripcion="Proyecto Solitario"
+deploy="https://contador-click-angular.vercel.app/"
+github="https://github.com/Sabbadini10/contador-click-angular" />
 </div>
 </div>
   )
