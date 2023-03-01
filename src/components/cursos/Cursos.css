@@ -64,7 +64,10 @@
         height: 20rem;
         
     }
-
+.main-titulo{
+    font-size: 40px;
+    font-weight: 600;
+}
     .contenedor-curso{
         gap: 5px;
     }
