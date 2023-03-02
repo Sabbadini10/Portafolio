@@ -5,21 +5,31 @@
      height:auto;
  }
 
+ .Cursos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+ }
+
+ .cardCursos-contenedor{
+    display: flex;
+    flex-direction: column;
+}
 
  .card-curso {
      width: 16rem
  }
- .cardCurso-caja-1{
-     display: flex;
-     flex-direction: column;
-     width: 90%;
+ 
+ .contenedor-curso-2{
+    display: none;
  }
 
  .contenedor-curso{
      display: flex;
      flex-direction: column; 
      align-items: center; 
-     width: 107%;
  }
 
  .Imagen-titulo {
@@ -30,34 +40,63 @@
     width: 80px;
     height: 35px;
     padding: 5px;
+    
   }
 
 
+  @media only screen and (min-width: 375px) {
+
+    .card-curso {
+        width: 18rem
+    }
+
+    .Imagen-titulo {
+        width: 16rem;
+     }
+    
+     .btn-cursos{
+        width: 85px;
+        font-size: 15px;
+        height: 40px;
+        padding: 5px;
+      }
+  }
+
+  @media only screen and (min-width: 425px) {
+   
+  }
+
+
+
  @media only screen and (min-width: 768px) {
-     .card-curso {
-          width: 100%;
-          
+    .card-curso {
+        width: 20rem;
+        height:auto;
+        
+    }
+
+    .Imagen-titulo {
+        width: 18rem;
+     }
+    
+     .btn-cursos{
+        width: 90px;
+        font-size: 17px;
+        height: 45px;
+        padding: 6px;
       }
 
-      .Imagen-titulo {
-        width: 100%;
-     }
      .CardCursos{
         width: 45%;
-        display: flex;
-        flex-direction: row;
+       
      }
-     .cardCurso-caja-1{
-          display: flex;
-          flex-direction: row;
-          width: 100%;
-      }
-
+   
+.curso-contenedor-row{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
       .contenedor-curso{
-          width: 103%;
-            display: flex;
-          flex-direction: row;
-          justify-content: center;
           gap: 10px;
       }
 
@@ -66,8 +105,8 @@
 
  @media only screen and (min-width: 1024px) {
     .card-curso {
-        width: 20rem;
-        height: 20rem;
+        width: 25rem;
+        height: auto;
         
     }
 .main-titulo{
@@ -76,30 +115,56 @@
 }
     .contenedor-curso{
         gap: 5px;
+        flex-direction: column;
     }
 
     .Imagen-titulo {
-      width: 17rem;
+      width: 23rem;
+      height: 20rem;
    }
-     .CardCursos{
-        width: 25%;
+  
+   .curso-contenedor-row{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+   
+
+    
+}
+
+@media only screen and (min-width: 1200px) {
+    
+    .contenedor-curso-2{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        gap: 1em;
      }
 
-    .cardCurso-caja-1{
-         display: flex;
-         flex-direction: column;
-         width: 100%;
-     }
+    .card-curso {
+        width: 25rem;
+        height: auto;
+        
+    }
+.main-titulo{
+    font-size: 40px;
+    font-weight: 600;
+}
+    .contenedor-curso{
+       display: none;
+    }
 
-     .contenedor-curso{
-         display: flex;
-         width: 100%;
-         flex-direction: row;
-         justify-content: center;
-         gap: 80px;
-     }
+    .Imagen-titulo {
+      width: 23rem;
+      height: 20rem;
+   }
+  
+   .curso-contenedor-row{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+   
 
     
 }
