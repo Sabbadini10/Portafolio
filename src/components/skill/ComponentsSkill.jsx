@@ -19,77 +19,149 @@ function Skill() {
   return (
     <div className='Skill'>
       <h1 className='main-titulo d-flex justify-content-center '>Skills</h1>
-      <div className='contenedor-skill row row-lg-3 row-md-2 row-sm-1 mt-3'>
-      <div className='cardSkill-caja-1'>
-    <CardSkill 
+      <div className='contenedor-skill mt-3 '>
+     <div className='cardSkill-caja'>
+     <CardSkill 
     src={skill1}
     name="Express.js"
    />
-   </div>
-   <div className='cardSkill-caja-1'>
+   
+  
 <CardSkill 
     src={skill2}
     name="CSS3"
    />
-    </div>
-    <div className='cardSkill-caja-1'>
-    <CardSkill
+     </div>
+   
+     <div className='cardSkill-caja'>
+     <CardSkill
 src={skill3}
 name="Boostrap" />
-</div>
-<div className='cardSkill-caja-1'>
+
+
 <CardSkill 
 src={skill4}
 name="HTML5"
    />
-   </div>
-<div className='cardSkill-caja-1'>
-<CardSkill
+
+     </div>
+   
+  
+     <div className='cardSkill-caja'>
+     <CardSkill
 src={skill5}
 name="Javascript" />
-</div>
-<div className='cardSkill-caja-1'>
+
+
 <CardSkill 
 src={skill6}
 name="MySQL"
    />
-   </div>
-<div className='cardSkill-caja-1'>
-    <CardSkill
+     </div>
+     <div className='cardSkill-caja'>
+     <CardSkill
 src={skill7}
 name="Node.js" />
-</div>
-<div className='cardSkill-caja-1'>
+
+
 <CardSkill 
 src={skill8}
-name="React.js"
-   />
-</div>
-<div className='cardSkill-caja-1'>
-<CardSkill
+name="React.js" />
+     </div>
+
+     <div className='cardSkill-caja'>
+     <CardSkill
 src={skill9}
 name="Sequelize" />
-</div>
-<div className='cardSkill-caja-1'>
+
+
 <CardSkill 
 src={skill10}
 name="Git" />
-</div>
-<div className='cardSkill-caja-1'>
-<CardSkill 
+
+     </div>
+
+
+     <div className='cardSkill-caja'>
+     <CardSkill 
 src={skill11}
 name="Slack" />
-</div>
-<div className='cardSkill-caja-1'>
+
+
 <CardSkill 
 src={skill12}
 name="Trello" />
+
 </div>
-<div className='cardSkill-caja-1'>
+<div className='cardSkill-caja-1200'>
+     <CardSkill 
+    src={skill1}
+    name="Express.js"
+   />
+   
+  
+<CardSkill 
+    src={skill2}
+    name="CSS3"
+   />
+
+<CardSkill
+src={skill3}
+name="Boostrap" />
+     </div>
+     <div className='cardSkill-caja-1200'>
+
+<CardSkill 
+src={skill4}
+name="HTML5"
+   />
+
+     <CardSkill
+src={skill5}
+name="Javascript" />
+
+
+<CardSkill 
+src={skill6}
+name="MySQL"
+   />
+     </div>
+     <div className='cardSkill-caja-1200'>
+     <CardSkill
+src={skill7}
+name="Node.js" />
+
+
+<CardSkill 
+src={skill8}
+name="React.js" />
+
+<CardSkill
+src={skill9}
+name="Sequelize" />
+
+
+</div>
+     <div className='cardSkill-caja-1200'>
+   
+
+<CardSkill 
+src={skill10}
+name="Git" />
+
+<CardSkill 
+src={skill11}
+name="Slack" />
+
+<CardSkill 
+src={skill12}
+name="Trello" />
+
+     </div>
 </div>
       </div>
     
-</div>
+
   )
 }
 
