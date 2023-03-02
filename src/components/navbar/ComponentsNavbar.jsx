@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <>
       <div className='Navbar'>
-      <nav className="navbar bg-dark ">
+      <nav className="navbar bg-dark d-flex justify-content-center">
     <ul className="navbar-nav d-flex flex-row">
     <li className="nav-item d-flex flex-row align-items-center">
       <span className='Navbar-span-icono'><i class="fa-solid fa-house"></i></span>
