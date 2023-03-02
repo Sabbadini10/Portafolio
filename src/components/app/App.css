@@ -12,6 +12,10 @@
   padding: 0;
 }
 
+.App{
+   
+}
+
 :root{
   --titulo-nombre1 : 'Unbounded', cursive;
   --titulo-nombre2 : 'Rubik Vinyl', cursive;

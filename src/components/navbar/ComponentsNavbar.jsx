@@ -8,7 +8,7 @@ function Navbar() {
     <>
       <div className='Navbar'>
       <nav className="navbar bg-dark ">
-    <ul className="navbar-nav d-flex gap-2 flex-row">
+    <ul className="navbar-nav d-flex flex-row">
     <li className="nav-item d-flex flex-row align-items-center">
       <span className='Navbar-span-icono'><i class="fa-solid fa-house"></i></span>
         <Link className="nav-link" to='/'>Home</Link>
@@ -25,10 +25,7 @@ function Navbar() {
             <span className='Navbar-span-icono'><i class="fa-sharp fa-solid fa-diagram-project"></i></span>
             <Link className="nav-link"  to='/proyecto'>Proyectos</Link>
           </li>
-          <li className="nav-item d-flex flex-row align-items-center" >
-            <span className='Navbar-span-icono'><i class="fa-solid fa-address-book"></i></span>
-            <Link className="nav-link"  to='/formulario'>Contacto</Link>
-          </li>
+         
         </ul>
   </nav>
     </div>

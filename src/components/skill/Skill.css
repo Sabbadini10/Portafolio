@@ -1,9 +1,9 @@
-.PagesSkill {
+.Skill{
+    width: 100%;
     background-image: url('../../imagenes/8ec422181b3f4f.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height:auto;
-  }
+}
 
 
 .card-skill{

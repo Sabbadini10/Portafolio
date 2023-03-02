@@ -1,7 +1,6 @@
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import PagesProyecto from "./pages/PagesProyecto";
-import PagesFormulario from "./pages/PagesFormulario";
 import PagesHome from "./pages/PagesHome";
 import PagesCursos from "./pages/PagesCursos";
 import PagesSkill from "./pages/PagesSkill";
@@ -15,7 +14,6 @@ export default function App() {
           <Route path="/skill" exact element={<PagesSkill />} />
           <Route path="/cursos" exact element={<PagesCursos />} />
           <Route path="/proyecto" exact element={<PagesProyecto />} />
-          <Route path="/formulario" exact element={<PagesFormulario />} />
           <Route path="*" element={<NoPage />} />
       </Routes>
     </BrowserRouter>

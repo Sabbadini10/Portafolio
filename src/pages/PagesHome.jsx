@@ -1,21 +1,22 @@
 import React from 'react'
 import Footer from '../components/footer/ComponentsFooter'
+import Header from '../components/header/ComponentsHeader'
 import ComponentsHome from '../components/home/ComponentsHome'
-import Navbar from '../components/navbar/ComponentsNavbar'
+import "../components/home/Home.css"
+
 
 
 function PagesHome() {
   
   return (
     <div className='PagesHome'>
-       <Navbar />
-    <div className="container-fluid">
-      <div className="row justify-content-center">
-          
-        <ComponentsHome />
+       <Header />
+    
+      <div className="d-flex flex-row justify-content-center">
+          <ComponentsHome/>
       </div>
-    </div>
-    <Footer />
+   <Footer/>
+    
     </div>
    
   )
